@@ -7,7 +7,7 @@ This is my Cloud Resume Challenge built on Azure.
 I've been inspired by the Cloud Resume Challenge by Gwyneth (GPS) to build more stuff in the cloud. I wanted to build something simple to continue my Cloud journey. The guide I followed was from 2021, and a lot of updates to the technology made me have to delve deep into resources to find a new way to build this project. I Used Visiual Studio Code with Azure Tools extention pack. .Net 8.0 LTS using a in-process model with the appropriate Nuget packages installed for the resources I am using. This included a lot of trial and error and referencing documentation. 
 
 ## Technologies ⚙
-- Azure CosmsDB
+- Azure CosmosDB
 - Azure Functions
 - Azure Database and Container
 - Azure resource group
@@ -28,10 +28,9 @@ I've been inspired by the Cloud Resume Challenge by Gwyneth (GPS) to build more 
 - [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash#install-the-azure-functions-core-tools)
 - [Visual Studio Code](https://code.visualstudio.com)
 - [Visual Code Extensions](https://code.visualstudio.com/docs/introvideos/extend)
-  - [Azure Functions Extensions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
-  - [C# Extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
-  - [Azure Storage Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestorage)
-- [Full solution](https://github.com/ACloudGuru-Resources/acg-project-azure-resume)
+- [Azure Functions Extensions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
+- [C# Extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+- [Azure Storage Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestorage)
 
 ## Front-end resources
 
