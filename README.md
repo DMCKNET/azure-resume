@@ -2,6 +2,10 @@
 This is my Cloud Resume Challenge built on Azure.
 ![architecture](design.png)
 
+## Demo
+
+[View it live here](https://www.devinmckinney.me/)
+
 
 ## Introduction 📑
 I’ve been inspired by the Cloud Resume Challenge by A Cloud Guru. I used Visual Studio Code with the Azure Tools extension pack and .NET 8.0 LTS in an in-process model, along with the necessary NuGet packages. The core of the solution is stored in Azure Blob Storage, which hosts the static website for my resume. The website is built with HTML, CSS, and JavaScript. JavaScript is used to implement a visitor counter, which not only displays the count but also makes API calls and integrates with an Azure Function. This Azure Function interacts with Azure Cosmos DB, the database service used to store the visitor counter information.
