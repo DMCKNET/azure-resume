@@ -2,9 +2,17 @@
 This is my Cloud Resume Challenge built on Azure.
 ![architecture](design.png)
 
+## Demo
+
+[View it live here](https://www.devinmckinney.me/)
+
 
 ## Introduction 📑
-I've been inspired by the Cloud Resume Challenge by A Cloud Guru. I Used Visiual Studio Code with Azure Tools extention pack. .Net 8.0 LTS using a in-process model with the appropriate Nuget packages installed for the resources I am using. The base of the solution lives inside blob storage, which holds the static website of the resume. And in the website I used HTML, CSS and JavaScript. The JavaScript is used to implement a visitor counter. And not only does it display that information, but also to calls to an API, and implements with an Azure function. The Azure function interacts with Azure CosmosDB, which is the database service used to store the visitor counter info. Using Azure CDN to enable features like HTTPS and custom domain support for the static site that is deployed on Azure blob storage. GitHub is used for all our CI/CD tooling. I created an Azure Cosmos DB account database Building the backend container and adding the counter data to that container. The Azure function was built with Visual Code locally with the Azure functions extension. I set up Cosmos DB bindings to retrieve and update the counter data. I deployed the Azure function and retrieved the function URL. Then I updated the JavaScript code with the function URL. Then I deployed the website to blob storage. Then set up Azure CDN and HTTPS support and set up my custom domain. Next, I built the CI/CD pipeline using GitHub. Creating the frontend workflow and that's responsible for deploying any changes made to HTML, CSS, JavaScript. Then I implemented unit tests to test my Azure functions code, and included that in the CI/CD pipeline. Then I created the backend GitHub workflow responsible for deploying anything that's in the backend folder of the project which includes the API and Azure functions. 
+I’ve been inspired by the Cloud Resume Challenge by A Cloud Guru. I used Visual Studio Code with the Azure Tools extension pack and .NET 8.0 LTS in an in-process model, along with the necessary NuGet packages. The core of the solution is stored in Azure Blob Storage, which hosts the static website for my resume. The website is built with HTML, CSS, and JavaScript. JavaScript is used to implement a visitor counter, which not only displays the count but also makes API calls and integrates with an Azure Function. This Azure Function interacts with Azure Cosmos DB, the database service used to store the visitor counter information.
+I utilized Azure CDN to enable features like HTTPS and custom domain support for the static site deployed on Azure Blob Storage. GitHub is used for all CI/CD tooling. I created an Azure Cosmos DB account and database, built the backend container, and added the counter data to that container. The Azure Function was developed locally in Visual Studio Code with the Azure Functions extension. I set up Cosmos DB bindings to retrieve and update the counter data, deployed the Azure Function, and retrieved the function URL. I then updated the JavaScript code with the function URL and deployed the website to Blob Storage. After that, I set up Azure CDN and HTTPS support and configured my custom domain.
+Next, I built the CI/CD pipeline using GitHub. I created a frontend workflow responsible for deploying any changes made to HTML, CSS, and JavaScript. I also implemented unit tests to test my Azure Functions code and included them in the CI/CD pipeline. 
+
+
 
 ## Technologies ⚙
 - Azure
