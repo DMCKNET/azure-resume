@@ -1,4 +1,4 @@
-# Azure Resume Challenge
+# Azure Resume
 This is my Cloud Resume Challenge built on Azure.
 ![architecture](design.png)
 
